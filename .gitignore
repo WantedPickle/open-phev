@@ -1,0 +1,16 @@
+/build/
+/local.properties
+*.keystore
+*.jks
+*.apk
+*.idsig
+.idea/
+
+*.log
+*.zip
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+/local-signing/
