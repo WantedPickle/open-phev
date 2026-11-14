@@ -1,0 +1,22 @@
+name: Protocol and schedule tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Run host tests (local fake vehicle only)
+        shell: pwsh
+        run: ./build.ps1 -TestOnly
