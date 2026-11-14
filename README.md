@@ -125,7 +125,7 @@ These checks do not validate Android runtime UI/permission behaviour, Samsung-sp
 
 ## Open-source reuse
 
-You may use, modify and distribute this project under GPL-3.0-or-later. When distributing a compiled app, provide its corresponding source and licence under the GPL's terms. This source directory is ready for a public repository but has not been uploaded to a hosting service. Contributions should include evidence for new register formats and tests for packet handling.
+You may use, modify and distribute this project under GPL-3.0-or-later. When distributing a compiled app, provide its corresponding source and licence under the GPL's terms. Contributions should include evidence for new register formats and tests for packet handling.
 
 Do not include Mitsubishi's original APK, decompiled source, branding or private credentials in releases. The supplied original APK was inspected locally for interoperability research; it is not needed to build this app and none of its code/assets are included.
 
